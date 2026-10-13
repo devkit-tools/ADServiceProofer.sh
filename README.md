@@ -1,5 +1,9 @@
 # ADUser Service Proofer v2.1
 
+```bash
+bash ADServiceProofer.sh
+```
+
 **A lightweight, interactive multi-protocol authentication checker powered by [NetExec (nxc)](https://github.com/Pennyw0rth/NetExec).**
 
 ADUser Service Proofer helps penetration testers validate supplied credentials across **multiple hosts, domains, users, and services** from one Bash interface. No need to manually type the same NetExec commands repeatedly.
@@ -74,23 +78,23 @@ If `nxc --version` works, the dependency is ready.
 
 ## Step 2 — Run ADUser Service Proofer
 
-Place `aduser-service-proofer-v2.1.sh` in your working directory:
+Place `ADServiceProofer.sh` in your working directory:
 
 ```bash
-chmod +x aduser-service-proofer-v2.1.sh
-./aduser-service-proofer-v2.1.sh
+chmod +x ADServiceProofer.sh
+./ADServiceProofer.sh.sh
 ```
 
 Alternatively:
 
 ```bash
-bash aduser-service-proofer-v2.1.sh
+bash ADServiceProofer.sh.sh
 ```
 
 To display basic command-line help:
 
 ```bash
-./aduser-service-proofer-v2.1.sh --help
+./ADServiceProofer.sh --help
 ```
 
 ## Step 3 — Enter your configuration
